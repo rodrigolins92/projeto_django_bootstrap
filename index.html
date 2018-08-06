@@ -15,11 +15,8 @@
   <body>
     <!--Cabeçalho-->
     <nav class="navbar navbar-expand-lg navbar-light mt-4">
-		<a class="navbar-brand storm-menu ml-5" href="#">Storm Cosméticos<span class="sr-only">(Página atual)</span></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="textoNavbar">
+			<a href="#"><img src="contents/img/logo_large.png" class="d-block	logo-large" alt="LogotipoStorm"></a>
+		<div class="collapse navbar-collapse container-fluid config-nav" id="textoNavbar">
 			<ul class="navbar-nav mr-auto menu-quemsomos">
 			<li class="nav-item active">
 				<a class="nav-link" href="#">Quem somos </a>
@@ -47,8 +44,62 @@
 		</div>
     </nav>
 	<!--Fim Cabeçalho-->
-	<img src="contents/img/logo_large.png" class="rounded mx-auto d-block logo-large">
 
+	<!-- Carousel -->
+	<div class="container config-altura" align="center">
+		<div class="row col-lg-10 col-xs-8 col-sm-8">
+			<div id="carouselExampleFade" class="carousel slide carousel-fade mt-5" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a href="#"><img class="d-block w-100" src="contents/img/teste1.jpg" alt="Primeiro Slide"></a>
+					</div>
+					<div class="carousel-item">
+						<a href="#"></a><img class="d-block w-100" src="contents/img/teste2.jpg" alt="Segundo Slide"></a>
+					</div>
+					<div class="carousel-item">
+						<a href="#"></a><img class="d-block w-100" src="contents/img/teste3.jpg" alt="Terceiro Slide"></a>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Próximo</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Fim Carousel -->
+
+	<!-- Cards -->
+	<div class="container config-altura" align="center">
+		<div class="card-deck">
+			<div class="card">
+				<img class="card-img-top configura-card" src="contents/img/teste1.jpg" alt="Imagem de capa do card 1">
+				<div class="card-body">
+					<h5 class="card-title">Título do card</h5>
+					<p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top configura-card" src="contents/img/teste2.jpg" alt="Imagem de capa do card 2">
+				<div class="card-body">
+					<h5 class="card-title">Título do card</h5>
+					<p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top configura-card" src="contents/img/teste3.jpg" alt="Imagem de capa do card 3">
+				<div class="card-body">
+					<h5 class="card-title">Título do card</h5>
+					<p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fim Cards -->
 
 
 
