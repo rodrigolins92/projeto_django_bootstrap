@@ -6,15 +6,14 @@
     
     <!--ABAIXO OS SCRIPTS DE BUTISTRAPI CÊ ESSI ESSI -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
-
-
+	<link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+	
     <title>Index - Storm</title>
 
   </head>
   <body>
     <!--Cabeçalho-->
-    <nav class="navbar navbar-expand-lg navbar-light mt-4">
+    <nav class="navbar navbar-expand-lg navbar-light mt-4 background-cabecalho">
 			<a href="#"><img src="contents/img/logo_large.png" class="d-block	logo-large" alt="LogotipoStorm"></a>
 		<div class="collapse navbar-collapse container-fluid config-nav" id="textoNavbar">
 			<ul class="navbar-nav mr-auto menu-quemsomos">
@@ -46,7 +45,7 @@
 	<!--Fim Cabeçalho-->
 
 	<!-- Carousel -->
-	<div class="container config-altura" align="center">
+	<div class="container-fluid config-altura" align="center">
 		<div class="row col-lg-10 col-xs-8 col-sm-8">
 			<div id="carouselExampleFade" class="carousel slide carousel-fade mt-5" data-ride="carousel">
 				<div class="carousel-inner">
@@ -102,7 +101,7 @@
 	<!-- Fim Cards -->
 
 	<blockquote class="blockquote text-center background-entre-em-contato">
-		<p class="h2 container mt-5">Entre em contato conosco</p>
+		<p class="h2 container mt-5 display-3">Entre em contato conosco</p>
 	</blockquote>
 
 	<div class="container">
@@ -135,14 +134,76 @@
 							<textarea class="form-control" id="inputMensagem" placeholder="Deixe sua mensagem"></textarea>
 						</div>
 					</div>
-					ESPAÇO PARA INSERIR BOTÃO DE SUBMIT E LIMPAR FORMULÁRIO (não esquecer da margem para não atrapalhar o tel e e-mail para contato quando tiver pelo cel)
+					<button class="btn btn-primary" type="submit" name="submit" value="Enviar">Enviar</button>
+					<button type="reset" class="btn btn-outline-danger btn-sm" name="reset" value="Limpar">Limpar</button>
 				</form>
 			</div>
 			<div class="col-md-4 col-sm-6">
-				AQUI VAI UM TELEFONE E UM E-MAIL PARA CONTATO
+				<p class="h2 container ml-3 mt-3 mb-4 display-5">NOSSO CONTATO</p>
+				<ul class="list-group">
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<img src="contents/img/telefone.ico" alt="icone de telefone" class="tamanho-icone">
+						<h6 class="contatos-storm">(11) 96670-8268</h6>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<img src="contents/img/email.ico" alt="icone de e-mail" class="tamanho-icone">
+						<h6 class="contatos-storm">stormcosmeticos@gmail.com</h6>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
+
+	<!-- footer -->
+	
+	<footer>
+		<div class="container-fluid bg-primary py-3 mt-5">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-7">
+				<div class="row py-0">
+				<div class="col-sm-1 hidden-md-down">
+					<a class="bg-circle bg-info" href="#">
+					<i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
+					</a>
+				</div>
+				<div class="col-sm-11 text-white">
+					<div><h4>  Contact</h4>
+						<p>   <span class="header-font">M</span>y<span class="header-font">w</span>website.com</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="d-inline-block">
+				<div class="bg-circle-outline d-inline-block" style="background-color:#3b5998">
+					<a href="https://www.facebook.com/">
+					</a>
+				</div>
+				<div class="bg-circle-outline d-inline-block" style="background-color:#4099FF">
+					<a href="https://twitter.com/">
+					</a>
+				</div>
+	
+				<div class="bg-circle-outline d-inline-block" style="background-color:#0077B5">
+					<a href="https://www.linkedin.com/company/">
+					</a>
+				</div>
+				<div class="bg-circle-outline d-inline-block" style="background-color:#d34836">
+					<a href="https://www.google.com/">
+					</a>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+   	</footer>
+	<!--/.footer-->
+   <p class="text-center"> Copyright © Footer Mywebsite Plugin 2014. All right reserved. </p>
+	   <!--/.footer-bottom--> 
+
+	<!-- fim do footer -->
 
 
 
