@@ -14,20 +14,20 @@
   <body>
     <!--Cabeçalho-->
     <nav class="navbar navbar-expand-lg navbar-light mt-4 background-cabecalho">
-			<a href="#"><img src="contents/img/logo_large.png" class="d-block logo-large" alt="Logotipo Storm"></a>
+			<a href="index.html"><img src="contents/img/logo_large.png" class="d-block logo-large" alt="Logotipo Storm"></a>
 		<div class="collapse navbar-collapse container-fluid config-nav" id="textoNavbar">
-			<ul class="navbar-nav mr-auto menu-quemsomos">
+			<ul class="navbar-nav mr-auto ml-auto menu-quemsomos">
 			<li class="nav-item active">
-				<a class="nav-link" href="#">Quem somos </a>
+				<a class="nav-link" href="paginas/quemsomos.html">Quem somos </a>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categoria</a>
 				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Cosméticos</a>
-					<a class="dropdown-item" href="#">Acessórios</a>
-					<a class="dropdown-item" href="#">Lingeries</a>
-				<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Higiene</a>
+					<a class="dropdown-item" href="paginas/cosmeticos.html">Cosméticos</a>
+					<a class="dropdown-item" href="paginas/acessorios.html">Acessórios</a>
+					<a class="dropdown-item" href="paginas/lingeries.html">Lingeries</a>
+			    <div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="paginas/higiene.html">Higiene</a>
 				</div>
 			</li>
 			<li class="nav-item">
@@ -73,7 +73,10 @@
 	<!-- Fim Carousel -->
 
 	<!-- Cards -->
-	<div class="container config-altura" align="center">
+	<blockquote class="blockquote text-center background-entre-em-contato">
+		<p class="h2 container mt-5 display-4 responsivo-contato">Categorias</p>
+	</blockquote>
+	<div class="container-fluid config-altura" align="center">
 		<div class="card-deck">
 			<div class="card">
 				<img class="card-img-top configura-card" src="contents/img/teste1.jpg" alt="Imagem de capa do card 1">
@@ -138,7 +141,7 @@
 					<div class="form-row">
 						<div class="form-group col-md-10">
 							<label for="inputMensagem">Mensagem</label>
-							<textarea class="form-control" id="inputMensagem" placeholder="Deixe sua mensagem"></textarea>
+							<textarea class="form-control" id="inputMensagem" placeholder="Deixe sua mensagem" rows="7"></textarea>
 						</div>
 					</div>
 					<button class="btn btn-primary" type="submit" name="submit" value="Enviar">Enviar</button>
@@ -146,7 +149,7 @@
 				</form>
 			</div>
 			<div class="col-md-4 col-sm-6">
-				<p class="h3 container ml-3 mt-3 mb-4 display-5">NOSSO CONTATO</p>
+				<p class="h3 container mt-3 mb-4 display-5" align="center">NOSSO CONTATO</p>
 				<ul class="list-group">
 					<li class="list-group-item d-flex justify-content-between align-items-center background-cabecalho">
 						<img src="contents/img/telefone.ico" alt="icone de telefone" class="tamanho-icone">
@@ -171,7 +174,7 @@
 						<div class="row py-0">
 						<div class="col-sm-1 hidden-md-down">
 							<a class="bg-circle background-entre-em-contato" href="#">
-							<!-- <i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i> -->
+							<i class="fa fa-2x fa-fw fa-address-card" aria-hidden="true "></i>
 							</a>
 						</div>
 						<div class="col-sm-11 text-white">
@@ -194,11 +197,11 @@
    	
 	</footer>
 	
-	<!--/.footer-->
+	<!-- footer-->
    
    	<p class="text-center small"> Copyright © Storm Cosméticos 2018. All right reserved. </p>
 	
-	<!--/.footer-bottom--> 
+	<!-- footer-bottom--> 
 
 	<!-- fim do footer -->
 
