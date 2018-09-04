@@ -1,0 +1,4 @@
+logo
+fonte = Bad Script
+cor contorno letra logo = #540001
+cor letra logo = #C80C0B
